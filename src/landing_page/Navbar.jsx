@@ -69,7 +69,7 @@ const Navbar = () => {
               <>
                 <li className="nav-item">
                   <a
-                    href={`${import.meta.env.VITE_DASHBOARD_URL}/dashboard?token=${localStorage.getItem("token")}`}
+                    href={`${import.meta.env.VITE_DASHBOARD_URL}/dashboard`}
                     className="nav-link active"
                     style={{ color: "#387ed1", fontWeight: "500" }}
                   >
