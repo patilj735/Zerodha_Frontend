@@ -69,17 +69,11 @@ const Navbar = () => {
               <>
                 <li className="nav-item">
                   <a
-                    href={`${import.meta.env.VITE_DASHBOARD_URL}/dashboard`}
-                    className="nav-link active"
-                    style={{ color: "#387ed1", fontWeight: "500" }}
-                  >
-                  {/* <a
-                    href={`http://localhost:5173/dashboard?token=${localStorage.getItem("token")}`}
-                    className="nav-link active"
-                    style={{ color: "#387ed1", fontWeight: "500" }}
-                  > */}
-                    Dashboard
-                  </a>
+  href={`${import.meta.env.VITE_DASHBOARD_URL}/dashboard?token=${localStorage.getItem('token')}`}
+  className="nav-link active"
+>
+  Dashboard
+</a>
                 </li>
                 <li className="nav-item">
                   <span className="nav-link active" style={{ cursor: "pointer", color: "#666" }}>
